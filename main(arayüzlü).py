@@ -37,27 +37,17 @@ def button5_clicked():
     print("Program kapatılıyor...")
     window.destroy()
 
-# Buton oluştur ve pencereye ekle
 button1 = tk.Button(text="URL Listele", command=button1_clicked)
 button1.pack()
-
-# 2. buton oluştur ve pencereye ekle
 button2 = tk.Button(text="URL Ekle", command=button2_clicked)
 button2.pack()
-
-# 3. buton oluştur ve pencereye ekle
 button3 = tk.Button(text="Örümcek Gönder", command=button3_clicked)
 button3.pack()
-
-# 4. buton oluştur ve pencereye ekle
 button4 = tk.Button(text="Sonuçları Listele", command=button4_clicked)
 button4.pack()
-
-# 5. buton oluştur ve pencereye ekle
 button5 = tk.Button(text="Çıkış", command=button5_clicked)
 button5.pack()
 
-# Pencereyi göster
 window.mainloop()
 
 
